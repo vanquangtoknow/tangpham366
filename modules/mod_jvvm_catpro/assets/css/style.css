@@ -1,0 +1,44 @@
+.jv-navigation {
+	margin: 0 0 0 15px;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+.jv-viewall {
+	margin: 23px 10px 0;
+	float: right;
+	line-height: 20px;
+	display: block;
+}
+*+html .jv-viewall {
+	margin: -24px 10px 0 0;
+}
+.jv-navigation a,
+.jv-viewall a {
+	font-size: 11px;
+	font-weight: 100;
+	color: #737373;
+}
+.jv-navigation a {
+	padding: 0 2px;
+}
+.jv-navigation a:hover,
+.jv-navigation a:focus,
+.jv-navigation a:active,
+.jv-viewall a:hover,
+.jv-viewall a:focus,
+.jv-viewall a:active,
+.jv-navigation a.selected {
+	color: #FFF;
+	text-decoration: none;
+}
+.contentdiv {
+}
+.contentdiv ul {
+	list-style: none;
+}
+.contentdiv li {
+	width: 162px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+}

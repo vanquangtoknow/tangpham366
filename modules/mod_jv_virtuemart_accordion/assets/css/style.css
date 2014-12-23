@@ -1,0 +1,36 @@
+.jv_accordion {
+	padding: 0px;
+	margin: 0px;
+}
+ul.jv_accordion li {
+	background:none repeat scroll 0 0 transparent;
+	border-top:1px solid #F1F1F1;
+	list-style: none;
+	margin-left: -4px;
+	display: block;
+}
+ul.jv_accordion li a {
+	display: block;
+	height: 24px;
+	padding-left: 29px;
+	line-height: 24px;
+}
+ul.jv_accordion li span {
+	background:url("../images/down_arrow.gif") no-repeat scroll left top transparent;
+	cursor:pointer;
+	display:block;
+	height:19px;
+	left:3px;
+	position:relative;
+	width:24px;
+	z-index:9;
+	float: left;
+	top: 2px;
+}
+ul.jv_accordion li span.Collapse {
+	background:url("../images/up_arrow.gif") no-repeat scroll left top transparent;
+}
+ul.detail-parent {
+	padding: 0 0 0 17px;
+	margin: 0px;
+}

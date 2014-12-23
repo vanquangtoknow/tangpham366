@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>JV Virtuemart Accordion</name>
+	<author>JoomlaVision</author>
+	<creationDate>September 24, 2010</creationDate>
+	<copyright>Copyright (C) 2008 - 2010 http://www.JoomlaVision.com. All rights reserved.</copyright>
+	<license>GNU/GPL</license>	
+	<authorEmail>support@joomlavision.com</authorEmail>
+	<authorUrl>www.joomlavision.com</authorUrl>
+	<version>1.5.0</version>
+	<description>JV_INSTALLATION</description>
+	<files>
+		<filename module="mod_jv_virtuemart_accordion">mod_jv_virtuemart_accordion.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>assets</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_jv_virtuemart_accordion.ini</language>
+	</languages>
+	<params>
+		<param name="fxeffect" type="list" default="Quad.easeOut" label="Transition Effect" description="FXEFFECT">
+			<option value="linear">linear</option>
+			<option value="Quad.easeOut">Quad.easeOut</option>
+			<option value="Quad.easeIn">Quad.easeIn</option>
+			<option value="Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Quart.easeOut">Quart.easeOut</option>
+			<option value="Quart.easeIn">Quart.easeIn</option>
+			<option value="Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Quint.easeOut">Quint.easeOut</option>
+			<option value="Quint.easeIn">Quint.easeIn</option>
+			<option value="Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Expo.easeOut">Expo.easeOut</option>
+			<option value="Expo.easeIn">Expo.easeIn</option>
+			<option value="Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Circ.easeOut">Circ.easeOut</option>
+			<option value="Circ.easeIn">Circ.easeIn</option>
+			<option value="Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Sine.easeOut">Sine.easeOut</option>
+			<option value="Sine.easeIn">Sine.easeIn</option>
+			<option value="Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Back.easeOut">Back.easeOut</option>
+			<option value="Back.easeIn">Back.easeIn</option>
+			<option value="Back.easeInOut">Back.easeInOut</option>
+			<option value="Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Elastic.easeInOut">Elastic.easeInOut</option>
+		</param>	
+		<param name="event_type" type="radio" default="1" label="Event type" description="Eventtype">
+			<option value="1">Mouseover</option>
+			<option value="0">Onclick</option>
+		</param>
+		<param name="duration" type="text" default="500" label="Duration" description="DURATION" />
+		<param name="time" type="text" default="100" label="Time" description="TIMEHOVER" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="1" label="Caching" description="CACHE">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="CACHETIME" />
+	</params>
+</install>
